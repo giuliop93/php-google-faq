@@ -7,8 +7,8 @@
 
 .container {
     width: 100vw;
-    border-top: solid 1px lightgray;
-    padding-top: 90px;
+    border-top: solid 2px lightgray;
+    padding-top: 40px;
 }
 
 .wrapper {
@@ -18,24 +18,47 @@
 
 .logo {
     display: inline-block;
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 30px;
+    vertical-align: sub;
+    color: lightgray;
+}
+
+.privacy {
+    font-size: x-large;
+}
+
+.decnone {
+    text-decoration: none;
+    color: white;
 }
 
 .logo img {
     width: 100%;
 }
 
+.right {
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
 .circle {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
     height: 30px;
     width: 30px;
-    color: crimson;
+    line-height: 30px;
+    color: white;
     border-radius: 50%;
+    background-color: crimson;
+    margin-left: 20px;
 }
 
 .between {
-    margin-left: 30px;
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -46,7 +69,7 @@
 }
 
 .navbar {
-    margin: 0 30px;
+    margin: 0;
     clear: both;
     display: table;
     content: "";
@@ -56,8 +79,15 @@ ul {
     list-style-type: none;
 }
 
+li {
+    padding: 0 10px;
+}
+
 li a {
     text-decoration: none;
+    color: dimgray;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .question {
@@ -74,6 +104,6 @@ p {
 
 h2 {
     line-height: 1.6;
-    color:black;
+    color: black;
     font-weight: bold;
 }

@@ -70,12 +70,12 @@ $arrayFaq = [
             <div>
                 <span class="logo"><img src="../php-google-faq/google-logo.png" alt="">
                 </span>
-                <span>Privacy e termini</span>
+                <span class="privacy">Privacy e termini</span>
             </div>
-            <div>
+            <div class="right">
                 <span class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i>
                 </span>
-                <span class="circle"></span>
+                <span class="circle"><a class="decnone" href="#">G</a></span>
             </div>
         </div>
         <div class="navbar">
