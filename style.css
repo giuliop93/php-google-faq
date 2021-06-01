@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100vw;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    color: crimson;
+    border-radius: 50%;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
